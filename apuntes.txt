@@ -1,0 +1,10 @@
+1.- ejecutar en la terminal el comando: npm init / npm init -y
+2.- asegurarse de tener el archivo package.json
+3.- Instalar dependencias que ayuden a traspilar nuestro código
+3.1 npm install -D @babel/cli @babel/core @babel/polyfill @babel/preset-env babel-loader html-webpack-plugin mini-css-extract-plugin style-loader webpack webpack-cli webpack-dev-server css-loader
+3.2 Verificar que se crea archivo package-lock.json y carpeta node_modules
+4.- configurar babel en archivo .babelrc
+5.- configurar webpack
+6.- ejecutar webpack
+7.- se agregan comandos en package.json -> sección scripts
+8.- ejecutar npm run dev
